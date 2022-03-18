@@ -1,5 +1,7 @@
 # Go30daysOfCode
-hackerrank challenge: 30 days of code  written in Go
+
+[Hacker Rank challenge](https://www.hackerrank.com/domains/tutorials/30-days-of-code): 30 days of code  written in Go.
+
 
 # Day 0
 
