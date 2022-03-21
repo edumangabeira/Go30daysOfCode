@@ -6,3 +6,5 @@
 ## Day 0 - Hello World
 
 ## Day 1 - Data types
+
+## Day 2 - Arithmetic Operations
