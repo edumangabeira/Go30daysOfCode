@@ -8,3 +8,5 @@
 ## Day 1 - Data types
 
 ## Day 2 - Arithmetic Operations
+
+## Day 3 - Conditional statements
