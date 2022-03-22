@@ -12,3 +12,5 @@
 ## Day 3 - Conditional statements
 
 ## Day 4 - Go Methods
+
+## Day 5 - Loops
