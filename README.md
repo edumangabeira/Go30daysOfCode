@@ -14,3 +14,5 @@
 ## Day 4 - Go Methods
 
 ## Day 5 - Loops
+
+## Day 6 - Review
