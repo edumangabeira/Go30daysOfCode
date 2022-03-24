@@ -13,17 +13,15 @@ func SplitByIndex(s []string, size int) ([]string, []string){
     evenSlice := make([]string, size)
     oddSlice := make([]string, size)
     
-    for i:=0; i<size-1; i++{
+    for i:=0; i<size; i++{
         if isEven(i){
-            evenSlice := append(evenSlice, s[i])
-            fmt.Println(evenSlice)
+            evenSlice = append(evenSlice, s[i])
         }else{
-            oddSlice := append(oddSlice, s[i])
-            fmt.Println(oddSlice)
+            oddSlice = append(oddSlice, s[i])
             
         }
     }
-    return [evenSlice, oddSlice]
+    return evenSlice, oddSlice
 }
 
 func concatenateSlices(evenSlice []string, oddSlice []string) string{
@@ -54,10 +52,9 @@ func main() {
     testCases, err := strconv.ParseInt(strings.TrimSpace(readLine(reader)), 10, 64)
     checkError(err)
     for i:=0; int64(i)<testCases; i++{
-        S := strings.Fields(readLine(reader))
+        S := strings.Split(strings.Fields(readLine(reader))[0], "")
         N := len(S)
         evenSlice, oddSlice := SplitByIndex(S, N)
-        fmt.Println(oddSlice)
         final_string := concatenateSlices(evenSlice, oddSlice)
         fmt.Println(final_string)
     }
