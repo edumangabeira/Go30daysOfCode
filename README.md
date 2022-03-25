@@ -16,3 +16,5 @@
 ## Day 5 - Loops
 
 ## Day 6 - Review
+
+## Day 7 - Arrays
