@@ -18,3 +18,5 @@
 ## Day 6 - Review
 
 ## Day 7 - Arrays
+
+## Day 8 - Maps
