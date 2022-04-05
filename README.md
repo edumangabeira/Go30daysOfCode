@@ -7,7 +7,7 @@
 
 ## Day 1 - Data types
 
-## Day 2 - Arithmetic Operations
+## Day 2 - Arithmetic operations
 
 ## Day 3 - Conditional statements
 
@@ -22,3 +22,5 @@
 ## Day 8 - Maps
 
 ## Day 9 - Recursion
+
+## Day 10 - Binary numbers
